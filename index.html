@@ -8,23 +8,67 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-	  <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Xibalsba</a>
-	  <ul class="navbar-nav px-3">
-	    <li class="nav-item text-nowrap">
-	      <a class="nav-link" href="#">Cerrar sesión</a>
-	    </li>
-	  </ul>
-	</nav>
 	<div class="wrapper bg-dark">
 		<!-- Sidebar -->
 	    <nav id="sidebar">
-	        ...
+	        <div class="sidebar-header">
+	            <h3>Xibalsba</h3>
+	        </div>
+
+	        <ul class="list-unstyled components">
+	            <p>Dashboard</p>
+	            <li class="active">
+	                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+	                <ul class="collapse list-unstyled" id="homeSubmenu">
+	                    <li>
+	                        <a href="#">Home 1</a>
+	                    </li>
+	                    <li>
+	                        <a href="#">Home 2</a>
+	                    </li>
+	                    <li>
+	                        <a href="#">Home 3</a>
+	                    </li>
+	                </ul>
+	            </li>
+	            <li>
+	                <a href="#">About</a>
+	            </li>
+	            <li>
+	                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+	                <ul class="collapse list-unstyled" id="pageSubmenu">
+	                    <li>
+	                        <a href="#">Page 1</a>
+	                    </li>
+	                    <li>
+	                        <a href="#">Page 2</a>
+	                    </li>
+	                    <li>
+	                        <a href="#">Page 3</a>
+	                    </li>
+	                </ul>
+	            </li>
+	            <li>
+	                <a href="#">Portfolio</a>
+	            </li>
+	            <li>
+	                <a href="#">Contact</a>
+	            </li>
+	        </ul>
 	    </nav>
 
 	    <!-- Page Content -->
 	    <div id="content">
-	        <!-- We'll fill this with dummy content -->
+	        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		        <div class="container-fluid">
+
+		            <button type="button" id="sidebarCollapse" class="btn btn-info">
+		                <i class="fas fa-align-left"></i>
+		                <span>Toggle Sidebar</span>
+		            </button>
+
+		        </div>
+		    </nav>
 	    </div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
