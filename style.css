@@ -62,7 +62,14 @@ a, a:hover, a:focus {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #0128d3;
+}
+ul ul a:hover{
+    background: #0128d3!important;
+    border-bottom-left-radius: 0px!important;
+    border-top-left-radius: 0px!important;
+    margin-left: 0px!important;
+    border-left: 5px solid #36478e;
 }
 #sidebar ul p {
     color: #fff;
