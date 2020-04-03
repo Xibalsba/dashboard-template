@@ -115,3 +115,8 @@ a[data-toggle="collapse"] {
     border:2px solid #e1e1e1;
     border-radius: 30px;
 }
+
+.profile-navbar img{
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
