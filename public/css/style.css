@@ -105,3 +105,13 @@ a[data-toggle="collapse"] {
     min-height: 100vh;
     transition: all 0.3s;
 }
+
+.dropdown-toggle::after { 
+    display: none; 
+}
+
+.profile-navbar{
+    padding: 10px;
+    border:2px solid #e1e1e1;
+    border-radius: 30px;
+}
