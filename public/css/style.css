@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #f1f1f3;
 }
 
 p {
@@ -114,6 +114,7 @@ a, a:hover, a:focus {
     padding: 10px;
     border:2px solid #e1e1e1;
     border-radius: 30px;
+    background: #ffffff;
 }
 
 .profile-navbar img{
