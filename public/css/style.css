@@ -58,12 +58,12 @@ a, a:hover, a:focus {
     color: #fff;
     background: #2C21EB;
 }
-ul ul a {
+#sidebar ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #2C21EB;
 }
-ul ul a:hover{
+#sidebar ul ul a:hover{
     background: #2C21EB!important;
     border-bottom-left-radius: 0px!important;
     border-top-left-radius: 0px!important;
@@ -78,11 +78,11 @@ ul ul a:hover{
     margin-left: -250px;
 }
 
-a[data-toggle="collapse"] {
+#sidebar ul li a[data-toggle="collapse"] {
     position: relative;
 }
 
-.dropdown-toggle::after {
+#sidebar .dropdown-toggle::after {
     display: block;
     position: absolute;
     top: 50%;
