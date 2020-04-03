@@ -120,3 +120,10 @@ a, a:hover, a:focus {
     margin-top: 5px;
     margin-bottom: 6px;
 }
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: static;
+        float: none
+    }
+}
