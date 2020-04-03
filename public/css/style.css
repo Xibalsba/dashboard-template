@@ -54,7 +54,7 @@ a, a:hover, a:focus {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+#sidebar ul li.active > a[aria-expanded="true"] {
     color: #fff;
     background: #2C21EB;
 }
