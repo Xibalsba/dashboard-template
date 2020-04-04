@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #f1f1f3;
 }
 
 p {
@@ -54,16 +54,16 @@ a, a:hover, a:focus {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+#sidebar ul li.active > a[aria-expanded="true"] {
     color: #fff;
     background: #2C21EB;
 }
-ul ul a {
+#sidebar ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #2C21EB;
 }
-ul ul a:hover{
+#sidebar ul ul a:hover{
     background: #2C21EB!important;
     border-bottom-left-radius: 0px!important;
     border-top-left-radius: 0px!important;
@@ -78,11 +78,11 @@ ul ul a:hover{
     margin-left: -250px;
 }
 
-a[data-toggle="collapse"] {
+#sidebar ul li a[data-toggle="collapse"] {
     position: relative;
 }
 
-.dropdown-toggle::after {
+#sidebar .dropdown-toggle::after {
     display: block;
     position: absolute;
     top: 50%;
@@ -96,5 +96,39 @@ a[data-toggle="collapse"] {
     }
     #sidebar.active {
         margin-left: 0;
+    }
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.dropdown-toggle::after { 
+    display: none; 
+}
+
+.profile-navbar{
+    padding: 10px;
+    border:2px solid #e1e1e1;
+    border-radius: 30px;
+    background: #ffffff;
+}
+
+.profile-navbar img{
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.dropdown-menu{
+    border:none!important;
+    box-shadow: 4px 3px 12px 0px #e1e1e1!important;
+}
+
+@media (min-width: 992px){
+    .dropdown-menu{
+        left:auto!important;
     }
 }

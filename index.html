@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Dashboard</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="public/icons/mdi/materialdesignicons.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -59,9 +60,30 @@
 
 	    <!-- Page Content -->
 	    <div id="content">
-			<button type="button" id="sidebarCollapse" class="btn btn-dark">
-                <span>Toggle Sidebar</span>
-            </button>
+	    	<!-- navbar -->
+	    	<nav class="navbar navbar-expand-lg navbar-light" style="background: #f1f1f3;">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-light rounded-circle" style="border: 2px solid #e1e1e1;">
+                        <i class="mdi mdi-menu mdi-24px"></i>
+                    </button>
+
+                    <ul class="nav navbar-nav ml-auto">
+                    	<li>
+				          <a href="#" class="dropdown-toggle profile-navbar" data-toggle="dropdown" role="button" aria-expanded="false">
+				          	<img src="https://avatars1.githubusercontent.com/u/49246221?s=60&u=1c235446e9abad64a002c82ec494f93d290110ff&v=4" class="img-fluid rounded-circle shadow" width="40">
+				          	Xibalsba<i class="mdi mdi-chevron-down ml-1"></i>
+				          </a>
+				          <ul class="dropdown-menu" role="menu">
+				            <li class="dropdown-item"><a href="#"><i class="mdi mdi-account mr-1"></i>Mi perfil</a></li>
+				            <li class="dropdown-item"><a href="#"><i class="mdi mdi-settings mr-1"></i>Ajustes</a></li>
+				            <div class="dropdown-divider"></div>
+				            <li class="dropdown-item"><a href="#"><i class="mdi mdi-logout-variant mr-1"></i>Cerrar sesión</a></li>
+				          </ul>
+				        </li>
+                    </ul>
+                </div>
+            </nav>
 	    </div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
