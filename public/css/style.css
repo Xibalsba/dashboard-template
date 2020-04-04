@@ -123,8 +123,7 @@ a, a:hover, a:focus {
 }
 
 @media (min-width: 992px){
-    .navbar-expand-lg .navbar-nav .dropdown-menu {
-        position: static;
-        float: none
+    .dropdown-menu{
+        left:auto!important;
     }
 }
